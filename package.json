@@ -1,0 +1,28 @@
+{
+  "name": "reclaim-sol",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./build/main.js",
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning --loader ts-node/esm .\\src\\main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.0",
+    "@solana/web3.js": "^1.75.0",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^1.0.1",
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
